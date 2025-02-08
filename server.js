@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const { Telegraf } = require('telegraf');
 
 const BOT_TOKEN = "7844863556:AAEgPiC8_QDPmQYffnJdXT1aNbOFpa_9Ffo"; // Вставь свой токен
-const WEB_APP_URL = "https://fishcoin.vercel.app"; // Ссылка на WebApp
+const WEB_APP_URL = "https://fishcoin-ckzjwatla-demonstrate2828s-projects.vercel.app"; // Ссылка на WebApp
 const TON_WALLET = "UQBO_91X8EcQF_RQqFUYIu308ZBlwjuhwWrsvOAKh2CMbD4S"; // Адрес TON-кошелька для платежей
 
 const bot = new Telegraf(BOT_TOKEN);
